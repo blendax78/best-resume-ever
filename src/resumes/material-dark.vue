@@ -13,7 +13,7 @@
       </div>
       <div class="text">
         <ul>
-          <li> Born {{person.birth.year}} in {{person.birth.location}}</li>
+          <li>{{person.name.first}} {{person.name.last}}{{person.title}}</li>
         </ul>
       </div>
     </div>
@@ -25,12 +25,12 @@
       <div class="text">
         <ul>
           <li>{{person.contact.street}}</li>
-          <li>{{person.contact.city}}</li>
+          <li>{{person.contact.city}}, {{person.contact.state}}</li>
         </ul>
       </div>
     </div>
 
-    <a :href="'tel:'+person.contact.phone">
+    <!--<a :href="'tel:'+person.contact.phone">
       <div class="item">
         <div class="icon">
           <i class="material-icons">phone</i>
@@ -39,7 +39,7 @@
           {{person.contact.phone}}
         </div>
       </div>
-    </a>
+    </a>-->
 
     <a :href="'mailto:'+person.contact.email">
       <div class="item">
