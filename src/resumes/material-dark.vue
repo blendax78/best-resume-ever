@@ -2,7 +2,7 @@
 <div class="resume">
   <div class="leftCol m_box">
     <div class="shadow"></div>
-    <div class="heading" id="myselfpic">
+    <div class="" id="myselfpic">
     </div>
     <div class="section-headline">
       {{ lang.headings.contact }}
@@ -453,7 +453,8 @@ h4 {
   }
 }
 #myselfpic {
-  background-image:url('../assets/person.jpg');
+  /*background-image:url('../assets/person.jpg');*/
+  background-color:#16151c;
   color:black;
 }
 #githubIcon {
