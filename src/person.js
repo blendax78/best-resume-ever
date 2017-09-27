@@ -90,7 +90,7 @@ export const PERSON = {
   ],
   skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
   contact: {
-    email: 'ericvintimilla@gmail.com',
+    email: 'eric@vintimilla.org',
     phone: '123 456789',
     street: '',
     city: 'Atlanta',
