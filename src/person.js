@@ -92,5 +92,5 @@ export const PERSON = {
     website: 'eric.vintimilla.org',
     github: 'blendax78'
   },
-  lang: 'en' // en, de, fr, pt, cn, it, es
+  lang: 'en' // en, de, fr, pt, cn, it, es, th, pt-br, ru, sv, id, hu
 };
