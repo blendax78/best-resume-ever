@@ -5,7 +5,7 @@ export const PERSON = {
     middle: '',
     last: 'Vintimilla',
   },
-  about: 'Hi, my name is John Doe. I\'m just about the most boring type of person you could possibly imagine. I like collecting leaves from the tree in my back yard and documenting each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.',
+  about: 'A proven record of success in designing, developing, and documenting new innovative applications. Coordinated projects while working with people of varying position and functional areas while consistently streamlining business processes and managing multiple projects delivered on time. I possess exceptional communication and presentation skills and the ability to develop and lead high-performance teams. Human Dynamo and moral booster. I don’t like to pigeonhole myself. I pride myself on the fact that I’m the Swiss Army Knife of any team: I readily adapt to any situation and I thrive in a challenge. I excel in big-picture thinking.',
   position: 'Senior Software Engineer',
   birth: {
     year: 1111,
@@ -35,6 +35,12 @@ export const PERSON = {
       position: 'Software Engineer',
       timeperiod: 'February 2013 - June 2014',
       description: 'Acted as Lead on a Scrum team to architect and build Oracle’s Paid Media product, which allows better management of Facebook ad buying.'
+    },
+    {
+      company: 'Salesforce',
+      position: 'Software Engineer',
+      timeperiod: 'November 2011 - February 2013',
+      description: 'Application development in PHP on Symfony MVC Framework. Database and query optimizations in MySQL. Server administration on linux machines. Technical Product Support.'
     }
   ],
   education: [{
@@ -50,35 +56,35 @@ export const PERSON = {
   ],
   // skill level goes 0 to 100
   skills: [{
-      name: 'HTML5',
-      level: '99'
+      name: 'React & Redux',
+      level: '85'
     },
     {
-      name: 'CSS3',
+      name: 'JavaScript (many libraries)',
       level: '95'
     },
     {
-      name: 'JavaScript',
+      name: 'PHP/LAMP Stack',
       level: '97'
     },
     {
-      name: 'Node.js',
-      level: '93'
-    },
-    {
-      name: 'Angular 2',
-      level: '60'
-    },
-    {
-      name: 'TypeScript',
+      name: 'Python',
       level: '80'
     },
     {
-      name: 'ES.Next',
-      level: '70'
+      name: 'HTML/CSS',
+      level: '90'
     },
     {
-      name: 'Docker',
+      name: 'Databases',
+      level: '80'
+    },
+    {
+      name: 'Team Lead & Scrum Master',
+      level: '92'
+    },
+    {
+      name: 'The Force',
       level: '99'
     }
   ],
