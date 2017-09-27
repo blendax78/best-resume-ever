@@ -44,12 +44,12 @@ export const PERSON = {
     }
   ],
   education: [{
-      degree: 'Software Engineering, Master of Science',
+      degree: 'MS Software Engineering',
       timeperiod: 'September 2007 - May 2010',
       description: 'Pennsylvania State University - Studies focused on the software development life cycle, IT project management, database design, human-computer interaction, and data mining. Created working prototypes for numerous web site and desktop projects, as well as an Android-based smartphone application.'
     },
     {
-      degree: 'International Relations, Bachelor of Arts',
+      degree: 'BA International Relations',
       timeperiod: 'September 1998 - December 2011',
       description: 'East Stroudsburg University - This program concentrated on the history, geography, and political systems in Latin America. Also minored in Computer Science and studied hardware configuration, software development, and system security.'
     }
