@@ -116,13 +116,29 @@
         </p>
       </div>
     </div>
+
+    <div class="section-headline">{{ lang.headings.certifications }}</div>
+    <div class="block" v-for="certification in person.certifications">
+      <div class="block-helper"></div>
+      <div class="headline">{{certification.title}}</div>
+      <div class="subheadline">{{certification.organization}}: {{certification.date}}</div>
+    </div>
+
     <div class="section-headline">{{ lang.headings.education }}</div>
     <div class="block" v-for="education in person.education">
       <div class="block-helper"></div>
       <div class="headline">{{education.degree}}</div>
+      <div class="subheadline">{{education.timeperiod}}</div>
       <p class="info">
-        {{education.timeperiod}}, {{education.description}}
+        {{education.description}}
       </p>
+    </div>
+
+    <div class="section-headline">{{ lang.headings.publications }}</div>
+    <div class="block" v-for="publication in person.publications">
+      <div class="block-helper"></div>
+      <div class="headline">{{publication.title}}</div>
+      <div class="subheadline">{{publication.publication}} {{publication.issue}}: {{publication.pages}}</div>
     </div>
   </div>
 
@@ -273,8 +289,8 @@ h4 {
     position:relative;
     background-color:#ffffff;
     padding:20px;
-    margin-top:5px;
-    margin-bottom:5px;
+    margin-top:2.5px;
+    margin-bottom:2.5px;
     display:inline-block;
     //box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     .headline {
@@ -347,7 +363,7 @@ h4 {
 }
 .leftCol {
   width:35%;
-  min-height: 2000px;
+  min-height: 3360px;
   float:left;
   padding:0;
   text-align:left;

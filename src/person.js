@@ -5,11 +5,11 @@ export const PERSON = {
     middle: '',
     last: 'Vintimilla',
   },
-  about: 'A proven record of success in designing, developing, and documenting new innovative applications. Coordinated projects while working with people of varying position and functional areas while consistently streamlining business processes and managing multiple projects delivered on time. I possess exceptional communication and presentation skills and the ability to develop and lead high-performance teams. Human Dynamo and moral booster. I don’t like to pigeonhole myself. I pride myself on the fact that I’m the Swiss Army Knife of any team: I readily adapt to any situation and I thrive in a challenge. I excel in big-picture thinking.',
+  about: 'A proven record of success in software design and development, as well as process improvement. I possess exceptional communication and presentation skills and the ability to develop and lead high-performance teams. Human Dynamo and moral booster. I can be the Swiss Army Knife of any team: I readily adapt to any situation and I thrive in a challenge. I excel in big-picture thinking.',
   position: 'Senior Software Engineer',
   birth: {
     year: 1111,
-    location: 'Atlanta'
+    location: 'Philadelphia, PA'
   },
   title: ', MS, CSM',
   experience: [{
@@ -41,6 +41,42 @@ export const PERSON = {
       position: 'Software Engineer',
       timeperiod: 'November 2011 - February 2013',
       description: 'Application development in PHP on Symfony MVC Framework. Database and query optimizations in MySQL. Server administration on linux machines. Technical Product Support.'
+    },
+    {
+      company: 'The Keane Organization',
+      position: 'Applications Developer',
+      timeperiod: 'July 2007 - December 2008',
+      description: 'Developed internal applications and additions to MSCRM. Microsoft .NET and SQL Server Development'
+    },
+    {
+      company: 'ABS, Inc',
+      position: 'Operations Manager (Contract)',
+      timeperiod: 'March 2007 - July 2007',
+      description: 'Maintained and updated all office systems, including Windows 2000/2003 and SQL 2000 servers. Provided desk-side technical support to employees (hardware installations and software updates). Created and managed e-commerce sites for clients.'
+    },
+    {
+      company: 'HostMySite.com',
+      position: 'Technical Support Representative',
+      timeperiod: 'January 2007 – March 2007',
+      description: 'Communicated with customers via phone and email in order to assist them with client-side application configuration questions (email, FTP, MS FrontPage, Dreamweaver) and server-side issues (SQL Server, MySQL, SSH/FTP, Apache, IIS, PHP).'
+    },
+    {
+      company: 'Caliper',
+      position: 'Quality Control Associate',
+      timeperiod: 'December 2005 – January 2007',
+      description: 'Ensured accuracy in business reports for clients.  Developed MS Word macros to help department employees improve productivity.'
+    },
+    {
+      company: 'Bangor Area High School',
+      position: 'Substitute Teacher',
+      timeperiod: 'March 2005 – June 2005',
+      description: 'Taught classes as a long-term Substitute Teacher for their Spanish curriculum.'
+    },
+    {
+      company: 'La Universidad Og Mandino',
+      position: 'English Professor',
+      timeperiod: 'September 2004 – December 2004',
+      description: 'Worked as the Head English Professor and designed the language curriculum for a small university in Quito, Ecuador.'
     }
   ],
   education: [{
@@ -60,7 +96,7 @@ export const PERSON = {
       level: '85'
     },
     {
-      name: 'JavaScript (many libraries)',
+      name: 'JavaScript (Backbone, Underscore, jQuery, Bootstrap, ExtJS, Kendo, etc.)',
       level: '95'
     },
     {
@@ -69,7 +105,7 @@ export const PERSON = {
     },
     {
       name: 'Python',
-      level: '80'
+      level: '75'
     },
     {
       name: 'HTML/CSS',
@@ -84,8 +120,53 @@ export const PERSON = {
       level: '92'
     },
     {
+      name: 'Version Control',
+      level: '90'
+    },
+    {
+      name: 'Linux and Shell',
+      level: '95'
+    },
+    {
+      name: 'Ruby',
+      level: '40'
+    },
+    {
       name: 'The Force',
-      level: '99'
+      level: '88'
+    }
+  ],
+  publications: [
+    {
+      title: 'Building a FreeBSD Wireless Router',
+      publication: 'BSD Magazine',
+      issue: 'Mar. 2009',
+      pages: '36-38'
+    },
+    {
+      title: 'LDAP on FreeBSD',
+      publication: 'BSD Magazine',
+      issue: 'Feb. 2010',
+      pages: '38-42'
+    },
+    {
+      title: 'The FreeBSD Chatterbox',
+      publication: 'BSD Magazine',
+      issue: 'Jan. 2010',
+      pages: '30-31'
+    },
+    {
+      title: 'Using FreeBSD for Off-Site Backups',
+      publication: 'BSD Magazine',
+      issue: 'Feb. 2009',
+      pages: '30-31'
+    }
+  ],
+  certifications: [
+    {
+      title: 'Certified ScrumMaster (CSM)',
+      date: 'April 2014 – Present',
+      organization: 'Scrum Alliance'
     }
   ],
   skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
@@ -93,8 +174,8 @@ export const PERSON = {
     email: 'eric@vintimilla.org',
     phone: '123 456789',
     street: '',
-    city: 'Atlanta',
-    state: 'GA',
+    city: 'Philadelphia',
+    state: 'PA',
     website: 'eric.vintimilla.org',
     github: 'blendax78'
   },
