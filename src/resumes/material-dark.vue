@@ -289,8 +289,8 @@ h4 {
     position:relative;
     background-color:#ffffff;
     padding:20px;
-    margin-top:2.5px;
-    margin-bottom:2.5px;
+    margin-top:4px;
+    margin-bottom:4px;
     display:inline-block;
     //box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     .headline {
