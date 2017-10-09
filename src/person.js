@@ -128,8 +128,8 @@ export const PERSON = {
       level: '95'
     },
     {
-      name: 'Ruby',
-      level: '40'
+      name: 'Scrum Process',
+      level: '95'
     },
     {
       name: 'The Force',
