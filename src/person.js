@@ -16,13 +16,13 @@ export const PERSON = {
       company: 'ProActive Resources',
       position: 'Consultant',
       timeperiod: 'June 2017 to present',
-      description: 'Responsible for financial application development in the LAMP stack, as well as Front-End lead.'
+      description: 'Responsible for financial application development in the LAMP stack, as well as Front End lead.'
     },
     {
       company: 'vmware',
       position: 'Senior Software Engineer & Scrum Master',
       timeperiod: 'June 2015 - June 2017',
-      description: 'Responsible for full lifecycle design and development of AirWatch’s portal applications that allow for automation of processes and access for external customers. Work in a fast-paced, Agile-based environment and focus on cutting-edge distributed SaaS-based applications. Expand existing capabilities and engineer new projects from scratch.'
+      description: 'Responsible for full lifecycle design and development of vmware AirWatch’s portal applications that allow for automation of processes and access for external customers. Work in an Agile-based environment and focus on distributed SaaS-based applications. Expand existing capabilities and engineer new projects from scratch. Led teams throughout the Scrum process and worked as both Front End and Full Stack Engineer on various projects.'
     },
     {
       company: 'Shoutlet',
