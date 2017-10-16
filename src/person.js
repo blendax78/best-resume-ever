@@ -43,6 +43,12 @@ export const PERSON = {
       description: 'Application development in PHP on Symfony MVC Framework. Database and query optimizations in MySQL. Server administration on linux machines. Technical Product Support.'
     },
     {
+      company: 'Thomas Jefferson University Hospital',
+      position: 'Software Developer',
+      timeperiod: 'December 2008 - November 2011',
+      description: 'Developed hospital intranet-based applications using the LAMP stack and ColdFusion.'
+    },
+    {
       company: 'The Keane Organization',
       position: 'Applications Developer',
       timeperiod: 'July 2007 - December 2008',

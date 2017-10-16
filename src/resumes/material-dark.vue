@@ -363,7 +363,7 @@ h4 {
 }
 .leftCol {
   width:35%;
-  min-height: 3360px;
+  min-height: 3600px;
   float:left;
   padding:0;
   text-align:left;
